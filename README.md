@@ -1,13 +1,11 @@
 # CS643-Cloud-computing
 
 Cloud computing cs643 – Project 2
-JT289  Jinhong Tan
-April 2021
 
 
-Section1: AWS EMR, 4 instances run spark script
-Section2: EC2 Instance without Docker					
-Section3: EC2 Instance Docker					
+#Section1: AWS EMR, 4 instances run spark script
+#Section2: EC2 Instance without Docker					
+#Section3: EC2 Instance Docker					
 
 
 AWS EMR, 4 instances run spark script
@@ -31,10 +29,12 @@ With Amazon EMR, users can set up a cluster to process and analyze data with big
 - step3	For Step type, choose Spark application.
 - step4	For Application location, enter the location of python script in Amazon S3.
 - step5	In the Arguments field. Enter the following arguments and values:
+```
 --data_source s3://jt289project2/trainingdataset.csv
---output_uri s3://jt289project2/myOutputFolder
-
+output_uri s3://jt289project2/myOutputFolder
+```
 - step6	Choose Add to submit the step. The python script starting to run and will be done after completed.
+
 
 4.	Open S3 console, choose bucket jt289p roject2, choose myoutputfolder. A result file should be stored under this path.
 
