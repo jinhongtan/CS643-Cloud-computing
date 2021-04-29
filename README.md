@@ -15,8 +15,8 @@ AWS EMR, 4 instances run spark script
 With Amazon EMR, users can set up a cluster to process and analyze data with big data frameworks. EMR can launch a sample cluster using Spark, and run a simple PySpark script that store in an Amazon S3 bucket. Total 4 instance will create and one is the master instance, other three are workers.
 
 1.	Prepare storage for cluster input and output
-1)	Create an Amazon S3 bucket
-2)	Upload the PySpark script, trainingdataset.cvs validationdataset.cvs
+    (1)Create an Amazon S3 bucket
+    Upload the PySpark script, trainingdataset.cvs validationdataset.cvs
 
 2.	Launch an Amazon EMR cluster
 1)	Sign into the AWS Management Console and open the Amazon EMR console.
@@ -113,4 +113,3 @@ sudo docker run -t <Given Image name>
 
 docker run -it sampathgonnuru/cs643-project2:latest s3//mywineproject/ValidationDataset.csv 
 
-![image](https://user-images.githubusercontent.com/63888429/116500281-3693d080-a87c-11eb-9e83-9f8dfe4fe897.png)
