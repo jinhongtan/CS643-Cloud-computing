@@ -4,8 +4,8 @@ Cloud computing cs643 – Project 2
 
 
 **Section1: AWS EMR, 4 instances run spark script
-**Section2: EC2 Instance without Docker					
-**Section3: EC2 Instance Docker					
+Section2: EC2 Instance without Docker
+Section3: EC2 Instance Docker**
 
 
 AWS EMR, 4 instances run spark script
