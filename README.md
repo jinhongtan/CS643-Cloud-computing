@@ -103,12 +103,12 @@ step4	Verify the EC2-user can run Docker commands
 2.	Create a Dockerfile
 
 `touch Dockerfile`
-step1	nano Dockerfile and create the Dockerfile Image to automate the process
+- step1	nano Dockerfile and create the Dockerfile Image to automate the process
 `sudo docker build . -f Dockerfile -t <Image name of your choice>`
 Pushing and Pulling created Image to DockerHub
-step2	Login to your dockerhub account through ec2
+- step2	Login to your dockerhub account through ec2
 `docker login: Type your credentials`
-step3	In order to push docker type the following commands
+- step3	In order to push docker type the following commands
 ```
 docker tag <Local Ec2 Repository name>:<Tag name> <dockerhub username>/<local Ec2 Repository name>
 docker push <dockerhub username>/<local Ec2 Repository name>
