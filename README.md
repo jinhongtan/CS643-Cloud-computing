@@ -64,11 +64,14 @@ ssh -i "project2key.pem" root@ec2-54-242-207-60.compute-1.amazonaws.com
 - step3	Instal pip
 `Sudo pip install –upgrade pip`
 - step4	Install Java
-```Sudo apt-get install default-jre
-Java --version```
+
+`Sudo apt-get install default-jre`
+`Java --version`
+
 - step5	Install Py4j used for communicate between java and python
 `Pip install py4j`
 - step6	Install Spark and Hadoop
+
 ```
 wget http://archive.apache.org/dist/spark/spark-3.0.0/spark-3.0.0-bin-hadoop2.7.tgz
 sudo tar -zxvf spark-3.0.0-bin-hadoop2.7.tgz
