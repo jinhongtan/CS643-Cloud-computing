@@ -3,12 +3,12 @@
 Cloud computing cs643 – Project 2
 
 
-## Section1: AWS EMR, 4 instances run spark script
-## Section2: EC2 Instance without Docker
-## Section3: EC2 Instance Docker**
+# Section1: AWS EMR, 4 instances run spark script
+# Section2: EC2 Instance without Docker
+# Section3: EC2 Instance Docker**
 
 
-AWS EMR, 4 instances run spark script
+Section1 AWS EMR, 4 instances run spark script
 
 With Amazon EMR, users can set up a cluster to process and analyze data with big data frameworks. EMR can launch a sample cluster using Spark, and run a simple PySpark script that store in an Amazon S3 bucket. Total 4 instance will create and one is the master instance, other three are workers.
 
