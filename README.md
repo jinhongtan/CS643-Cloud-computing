@@ -1,5 +1,10 @@
 # CS643-Cloud-computing
 
+Cloud computing cs643 – Project 2
+JT289  Jinhong Tan
+April 2021
+
+
 Section1: AWS EMR, 4 instances run spark script
 Section2: EC2 Instance without Docker					
 Section3: EC2 Instance Docker					
@@ -108,3 +113,4 @@ sudo docker run -t <Given Image name>
 
 docker run -it sampathgonnuru/cs643-project2:latest s3//mywineproject/ValidationDataset.csv 
 
+![image](https://user-images.githubusercontent.com/63888429/116500281-3693d080-a87c-11eb-9e83-9f8dfe4fe897.png)
